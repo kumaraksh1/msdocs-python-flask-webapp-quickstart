@@ -70,7 +70,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_77DCE81F48284FC19BEAAC5EB7C1E837 }}
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@releases/v2-users/kumaraksh/delete-release-folder-php
         id: deploy-to-webapp
         with:
           app-name: 'python-gha-testing'
