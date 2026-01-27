@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - lsu-python-312-webapp
 on:
   push:
     branches:
-      - main
+      - main2
   workflow_dispatch:
 
 jobs:

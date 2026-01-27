@@ -68,7 +68,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1D9C58C941AB4F66BEAF14F07AE99B4B }}
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@users/kumaraksh/releasev3-kuduwarmup
         id: deploy-to-webapp
         with:
           app-name: 'webssh-fix-cves'

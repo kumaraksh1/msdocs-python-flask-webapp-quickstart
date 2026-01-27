@@ -5,7 +5,7 @@ on:
   # Automatically trigger it when detected changes in repo
   push:
     branches: 
-      [ main ]
+      [ main2 ]
     paths:
     - '**'
     - '.github/workflows/first-aca-AutoDeployTrigger-2ec90575-0bd4-4a34-bf3f-01c8e347a8fc.yml'
