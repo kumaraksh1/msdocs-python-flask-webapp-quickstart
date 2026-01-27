@@ -58,9 +58,10 @@ jobs:
           name: python-app
       
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@users/kumaraksh/releasev3-kuduwarmup
         id: deploy-to-webapp
         with:
           app-name: 'webssh-fix-cves'
           slot-name: 'Production'
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EDB6E986FE1848E6A2C834C50BFD3832 }}
