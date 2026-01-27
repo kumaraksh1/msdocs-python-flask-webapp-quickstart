@@ -68,7 +68,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_CCDA4E9BB5994B639F8C5B0C5A5C723C }}
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@users/kumaraksh/releasev3-kuduwarmup
         id: deploy-to-webapp
         with:
           app-name: 'kudulite-cves'
