@@ -68,9 +68,10 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_BF82B4EE89584BA0A9184E89BFD0A4C9 }}
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@users/kumaraksh/releasev3-kuduwarmup
         id: deploy-to-webapp
         with:
           app-name: 'test-githubactions-retry'
           slot-name: 'Production'
+
           
