@@ -58,12 +58,13 @@ jobs:
           name: python-app
       
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@users/kumaraksh/releasesv2-feb26
+        uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
           app-name: 'test-githubactions-retry'
           slot-name: 'Production'
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE297DE4135E40909F6A5BBEB9C71A91 }}
+
 
 
