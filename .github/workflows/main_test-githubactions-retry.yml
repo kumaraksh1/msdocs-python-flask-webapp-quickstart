@@ -58,7 +58,7 @@ jobs:
           name: python-app
       
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@users/kumaraksh/releasesv3-node-update
         id: deploy-to-webapp
         with:
           app-name: 'test-githubactions-retry'
