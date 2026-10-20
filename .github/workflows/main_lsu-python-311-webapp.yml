@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'lsu-python-311-webapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DB5E09FF66214C84A30221E130EE6731 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DBAC96671DE94B3C9A0FB4F7589A2595 }}
